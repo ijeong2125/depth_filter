@@ -1,0 +1,1 @@
+rosdep install --from-paths ~/catkin_ws/src/iai_kinect2 --ignore-src -r
