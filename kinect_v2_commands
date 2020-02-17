@@ -1,1 +1,5 @@
+-----install commands------
 rosdep install --from-paths ~/catkin_ws/src/iai_kinect2 --ignore-src -r
+
+-setting commands-
+sudo chmod 777 -R /dev/bus/usb
