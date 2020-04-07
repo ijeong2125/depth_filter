@@ -15,3 +15,7 @@ alias cm='cd ~/catkin_ws && catkin_make'
 alias jc='sudo jetson_clocks'                  
 source /opt/ros/kinetic/setup.bash                                          
 source ~/catkin_ws/devel/setup.bash   
+
+--libfreenect2 symboliclink error--
+cd /usr/lib/aarch64-linux-gnu/
+sudo ln -sf libGL.so.1.0.0 libGL.so
