@@ -3,3 +3,15 @@ rosdep install --from-paths ~/catkin_ws/src/iai_kinect2 --ignore-src -r
 
 -setting commands-
 sudo chmod 777 -R /dev/bus/usb
+
+-ros commands setting-
+alias eb='vim ~/.bashrc'                                                    
+alias sb='source ~/.bashrc'                                                 
+alias gs='git status'                                                       
+alias gp='git pull'                                                         
+alias cw='cd ~/catkin_ws'                                                   
+alias cs='cd ~/catkin_ws/src'                                               
+alias cm='cd ~/catkin_ws && catkin_make'                                    
+alias jc='sudo jetson_clocks'                  
+source /opt/ros/kinetic/setup.bash                                          
+source ~/catkin_ws/devel/setup.bash   
