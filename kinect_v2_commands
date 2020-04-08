@@ -19,3 +19,7 @@ source ~/catkin_ws/devel/setup.bash
 --libfreenect2 symboliclink error--
 cd /usr/lib/aarch64-linux-gnu/
 sudo ln -sf libGL.so.1.0.0 libGL.so
+
+--iai_kinect2 error__
+opencv version 4 -> 3 (jetsonhacks)
+dependency install: compress_image_trans, ~proc, bullet etc 
